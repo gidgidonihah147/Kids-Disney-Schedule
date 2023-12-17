@@ -1,95 +1,113 @@
-html{
-  background-color: rgb(105, 105, 248);
+html {
+	background-color: rgb(105, 105, 248);
 }
-header{
-  border: 2px solid rgb(0, 0, 0);
-  background: rgb(57, 218, 97);
-  text-align: center;
+
+header {
+	border: 2px solid rgb(0, 0, 0);
+	background: rgb(57, 218, 97);
+	text-align: center;
 }
-header  li {
-  list-style: none;
+
+header li {
+	list-style: none;
 }
-body{
-  max-width: 100%;
-  margin: auto;
-  text-align: center;
-  color: aliceblue;
-  font-size: larger;
-  background-color: black;
+
+body {
+	max-width: 100%;
+	margin: auto;
+	text-align: center;
+	color: aliceblue;
+	font-size: larger;
+	background-color: black;
 }
-li{
-  padding: 5px;
+
+li {
+	padding: 5px;
 }
+
 ul {
-  border: 2px solid white;
-  margin: 1em;
+	border: 2px solid white;
+	margin: 1em;
 }
-a:link, a:hover, a:active, a:visited {
-  color: white;
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+	color: white;
 }
-main{
-  border: 2px solid white;
+
+main {
+	border: 2px solid white;
 }
-footer{
-  border: 2px solid white;
-  background: black;
+
+footer {
+	border: 2px solid white;
+	background: black;
 }
+
 ul p.note {
-border: 2px solid yellow;
-padding: 1em;
-text-align: center;
+	border: 2px solid yellow;
+	padding: 1em;
+	text-align: center;
 }
+
 article {
-  width: 90%;
-  margin: auto;
-  margin-top: 1em;
+	width: 90%;
+	margin: auto;
+	margin-top: 1em;
 }
+
 /* Remove default bullets */
-ul, #myUL {
-list-style-type: none;
+ul,
+#myUL {
+	list-style-type: none;
 }
 
 /* Remove margins and padding from the parent ul */
 #myUL {
-margin: 0;
-padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /* Style the caret/arrow */
 .caret {
-cursor: pointer;
-user-select: none; /* Prevent text selection */
+	cursor: pointer;
+	user-select: none;
+	/* Prevent text selection */
 }
 
 /* Create the caret/arrow with a unicode, and style it */
 .caret::before {
-content: "\25B6";
-color: white;
-display: inline-block;
-margin-right: 6px;
+	content: "\25B6";
+	color: white;
+	display: inline-block;
+	margin-right: 6px;
 }
 
 /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
 .caret-down::before {
-transform: rotate(90deg);
+	transform: rotate(90deg);
 }
 
 /* Hide the nested list */
 .nested {
-display: none;
+	display: none;
 }
 
 /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
 .active {
-display: block;
-text-align: left; 
-padding: 1em;
+	display: block;
+	text-align: left;
+	padding: 1em;
 }
-.icon{
-  height: 20px;
-  width: 20px;
-  padding-right: 5px;
+
+.icon {
+	height: 20px;
+	width: 20px;
+	padding-right: 5px;
 }
+
 table,
 th,
 td {
@@ -100,7 +118,7 @@ td {
 table {
 	border-left: none;
 	border-right: none;
-  width: 100%;
+	width: 100%;
 }
 
 th,
@@ -111,153 +129,230 @@ td {
 	min-height: 1.5em;
 	text-align: center;
 }
+
 img {
-  width: 100%;
-  height: 15em;
+	width: 100%;
+	height: 15em;
 }
+
 .highlight-gray {
 	color: rgba(120, 119, 116, 1);
 	fill: rgba(120, 119, 116, 1);
 }
+
 .highlight-brown {
 	color: rgba(159, 107, 83, 1);
 	fill: rgba(159, 107, 83, 1);
 }
+
 .highlight-orange {
 	color: rgba(217, 115, 13, 1);
 	fill: rgba(217, 115, 13, 1);
 }
+
 .highlight-yellow {
 	color: rgba(203, 145, 47, 1);
 	fill: rgba(203, 145, 47, 1);
 }
+
 .highlight-teal {
 	color: rgba(68, 131, 97, 1);
 	fill: rgba(68, 131, 97, 1);
 }
+
 .highlight-blue {
 	color: rgba(51, 126, 169, 1);
 	fill: rgba(51, 126, 169, 1);
 }
+
 .highlight-purple {
 	color: rgba(144, 101, 176, 1);
 	fill: rgba(144, 101, 176, 1);
 }
+
 .highlight-pink {
 	color: rgba(193, 76, 138, 1);
 	fill: rgba(193, 76, 138, 1);
 }
+
 .highlight-red {
 	color: rgba(212, 76, 71, 1);
 	fill: rgba(212, 76, 71, 1);
 }
+
 .highlight-gray_background {
 	background: rgba(241, 241, 239, 1);
 }
+
 .highlight-brown_background {
 	background: rgba(244, 238, 238, 1);
 }
+
 .highlight-orange_background {
 	background: rgba(251, 236, 221, 1);
 }
+
 .highlight-yellow_background {
 	background: rgba(251, 243, 219, 1);
 }
+
 .highlight-teal_background {
 	background: rgba(237, 243, 236, 1);
 }
+
 .highlight-blue_background {
 	background: rgba(231, 243, 248, 1);
 }
+
 .highlight-purple_background {
 	background: rgba(244, 240, 247, 0.8);
 }
+
 .highlight-pink_background {
 	background: rgba(249, 238, 243, 0.8);
 }
+
 .highlight-red_background {
 	background: rgba(253, 235, 236, 1);
 }
+
 .block-color-default {
 	color: inherit;
 	fill: inherit;
 }
+
 .block-color-gray {
 	color: rgba(120, 119, 116, 1);
 	fill: rgba(120, 119, 116, 1);
 }
+
 .block-color-brown {
 	color: rgba(159, 107, 83, 1);
 	fill: rgba(159, 107, 83, 1);
 }
+
 .block-color-orange {
 	color: rgba(217, 115, 13, 1);
 	fill: rgba(217, 115, 13, 1);
 }
+
 .block-color-yellow {
 	color: rgba(203, 145, 47, 1);
 	fill: rgba(203, 145, 47, 1);
 }
+
 .block-color-teal {
 	color: rgba(68, 131, 97, 1);
 	fill: rgba(68, 131, 97, 1);
 }
+
 .block-color-blue {
 	color: rgba(51, 126, 169, 1);
 	fill: rgba(51, 126, 169, 1);
 }
+
 .block-color-purple {
 	color: rgba(144, 101, 176, 1);
 	fill: rgba(144, 101, 176, 1);
 }
+
 .block-color-pink {
 	color: rgba(193, 76, 138, 1);
 	fill: rgba(193, 76, 138, 1);
 }
+
 .block-color-red {
 	color: rgba(212, 76, 71, 1);
 	fill: rgba(212, 76, 71, 1);
 }
+
 .block-color-gray_background {
 	background: rgba(241, 241, 239, 1);
 }
+
 .block-color-brown_background {
 	background: rgba(244, 238, 238, 1);
 }
+
 .block-color-orange_background {
 	background: rgba(251, 236, 221, 1);
 }
+
 .block-color-yellow_background {
 	background: rgba(251, 243, 219, 1);
 }
+
 .block-color-teal_background {
 	background: rgba(237, 243, 236, 1);
 }
+
 .block-color-blue_background {
 	background: rgba(231, 243, 248, 1);
 }
+
 .block-color-purple_background {
 	background: rgba(244, 240, 247, 0.8);
 }
+
 .block-color-pink_background {
 	background: rgba(249, 238, 243, 0.8);
 }
+
 .block-color-red_background {
 	background: rgba(253, 235, 236, 1);
 }
-.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
-.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
-.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
-.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
-.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
-.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
-.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
-.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
-.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
-.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
-.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
-.select-value-color-pageGlass { background-color: undefined; }
-.select-value-color-washGlass { background-color: undefined; }
+
+.select-value-color-uiBlue {
+	background-color: rgba(35, 131, 226, .07);
+}
+
+.select-value-color-pink {
+	background-color: rgba(245, 224, 233, 1);
+}
+
+.select-value-color-purple {
+	background-color: rgba(232, 222, 238, 1);
+}
+
+.select-value-color-green {
+	background-color: rgba(219, 237, 219, 1);
+}
+
+.select-value-color-gray {
+	background-color: rgba(227, 226, 224, 1);
+}
+
+.select-value-color-translucentGray {
+	background-color: rgba(255, 255, 255, 0.0375);
+}
+
+.select-value-color-orange {
+	background-color: rgba(250, 222, 201, 1);
+}
+
+.select-value-color-brown {
+	background-color: rgba(238, 224, 218, 1);
+}
+
+.select-value-color-red {
+	background-color: rgba(255, 226, 221, 1);
+}
+
+.select-value-color-yellow {
+	background-color: rgba(253, 236, 200, 1);
+}
+
+.select-value-color-blue {
+	background-color: rgba(211, 229, 239, 1);
+}
+
+.select-value-color-pageGlass {
+	background-color: undefined;
+}
+
+.select-value-color-washGlass {
+	background-color: undefined;
+}
 
 .checkbox {
 	display: inline-flex;
@@ -276,15 +371,17 @@ img {
 .checkbox-off {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
+
 .text-icon {
 	border: 1px solid #000;
 	text-align: center;
 }
+
 .mono ol {
 	padding-inline-start: 2em;
 }
 
-.mono ol > li {
+.mono ol>li {
 	text-indent: -0.4em;
 }
 
@@ -294,11 +391,11 @@ img {
 }
 
 /* Indent toggle children */
-.toggle > li > details {
+.toggle>li>details {
 	padding-left: 1.7em;
 }
 
-.toggle > li > details > summary {
+.toggle>li>details>summary {
 	margin-left: -1.1em;
 }
 
@@ -319,7 +416,7 @@ img {
 }
 
 .page-description {
-    margin-bottom: 2em;
+	margin-bottom: 2em;
 }
 
 .simple-table {
@@ -327,6 +424,7 @@ img {
 	font-size: 0.875rem;
 	empty-cells: show;
 }
+
 .simple-table td {
 	height: 29px;
 	min-width: 120px;
@@ -341,15 +439,18 @@ img {
 	background: rgb(247, 246, 243);
 	color: black;
 }
+
 .simple-table-header {
 	font-weight: 500;
 }
+
 table,
 th,
 td {
 	border: 1px solid white;
 	border-collapse: collapse;
 }
+
 .collection-content {
 	font-size: 0.875rem;
 }
@@ -395,6 +496,7 @@ td {
 	opacity: 0.7;
 	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
 }
+
 hr {
 	background: transparent;
 	display: block;
@@ -404,30 +506,69 @@ hr {
 	border: none;
 	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
 }
-.select-value-color-uiBlue { background-color: rgba(10, 88, 166, 0.07); }
-.select-value-color-pink { background-color: rgb(231, 28, 120); }
-.select-value-color-purple { background-color: rgb(148, 16, 224); }
-.select-value-color-green { background-color: rgb(28, 224, 28); }
-.select-value-color-gray { background-color: rgb(228, 162, 29); }
-.select-value-color-translucentGray { background-color: rgba(182, 174, 174, 0.038); }
-.select-value-color-orange { background-color: rgb(231, 114, 24); }
-.select-value-color-brown { background-color: rgb(148, 91, 67); }
-.select-value-color-red { background-color: rgb(255, 38, 0); }
-.select-value-color-yellow { background-color: rgb(252, 190, 56); }
-.select-value-color-blue { background-color: rgb(13, 143, 9); }
-.select-value-color-pageGlass { background-color: undefined; }
-.select-value-color-washGlass { background-color: undefined; }
 
-@media only screen and (min-width:900px){
-  body{
-    max-width: 90%;
-    margin: auto;
-    text-align: center;
-    color: aliceblue;
-    font-size: large;
-  }
-  form {
-    text-align-last: center;
-  }
+.select-value-color-uiBlue {
+	background-color: rgba(10, 88, 166, 0.07);
 }
 
+.select-value-color-pink {
+	background-color: rgb(231, 28, 120);
+}
+
+.select-value-color-purple {
+	background-color: rgb(148, 16, 224);
+}
+
+.select-value-color-green {
+	background-color: rgb(28, 224, 28);
+}
+
+.select-value-color-gray {
+	background-color: rgb(228, 162, 29);
+}
+
+.select-value-color-translucentGray {
+	background-color: rgba(182, 174, 174, 0.038);
+}
+
+.select-value-color-orange {
+	background-color: rgb(231, 114, 24);
+}
+
+.select-value-color-brown {
+	background-color: rgb(148, 91, 67);
+}
+
+.select-value-color-red {
+	background-color: rgb(255, 38, 0);
+}
+
+.select-value-color-yellow {
+	background-color: rgb(252, 190, 56);
+}
+
+.select-value-color-blue {
+	background-color: rgb(13, 143, 9);
+}
+
+.select-value-color-pageGlass {
+	background-color: undefined;
+}
+
+.select-value-color-washGlass {
+	background-color: undefined;
+}
+
+@media only screen and (min-width:900px) {
+	body {
+		max-width: 90%;
+		margin: auto;
+		text-align: center;
+		color: aliceblue;
+		font-size: large;
+	}
+
+	form {
+		text-align-last: center;
+	}
+}
