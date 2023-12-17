@@ -53,7 +53,7 @@ ul p.note {
 }
 
 article {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	margin-top: 1em;
 }
@@ -570,5 +570,8 @@ hr {
 
 	form {
 		text-align-last: center;
+	}
+	article{
+		width: 90%;
 	}
 }
