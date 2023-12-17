@@ -419,7 +419,7 @@ hr {
 .select-value-color-pageGlass { background-color: undefined; }
 .select-value-color-washGlass { background-color: undefined; }
 
-@media only screen and (min-width:786px){
+@media only screen and (min-width:900px){
   body{
     max-width: 90%;
     margin: auto;
