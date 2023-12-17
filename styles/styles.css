@@ -2,7 +2,7 @@ html{
   background-color: rgb(105, 105, 248);
 }
 header{
-  border: 2px solid white;
+  border: 2px solid rgb(0, 0, 0);
   background: rgb(57, 218, 97);
   text-align: center;
 }
