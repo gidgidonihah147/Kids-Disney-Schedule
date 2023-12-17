@@ -563,7 +563,7 @@ hr {
 	background-color: undefined;
 }
 
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:786px) {
 	body {
 		max-width: 90%;
 		margin: auto;
