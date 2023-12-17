@@ -43,7 +43,6 @@ text-align: center;
 article {
   width: 90%;
   margin: auto;
-  border: 2px solid rgb(105, 105, 248);
   margin-top: 1em;
 }
 /* Remove default bullets */
