@@ -134,6 +134,9 @@ img {
 	width: 100%;
 	height: 15em;
 }
+.collection-content{
+	max-width:fit-content;
+}
 
 .highlight-gray {
 	color: rgba(120, 119, 116, 1);
